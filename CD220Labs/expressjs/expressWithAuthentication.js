@@ -92,6 +92,6 @@ app.get("/auth/get_message", (req,res) => {
   return res.status(200).json({message: "Hello, You are an authenticated user. Congratulations!"});
 })
 
-const PORT =5000;
+const PORT =5001;
 
 app.listen(PORT,()=>console.log("Server is running"));
